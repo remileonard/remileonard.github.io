@@ -5,6 +5,12 @@ date:   2025-03-08 12:18:59 +0100
 categories: LibRealSpace
 ---
 
+I’m going to share how I started working on the Strike Commander remake. From its beginnings and discovering the libRealSpace project ([Reverse engineering Strike Commander](https://fabiensanglard.net/reverse_engineering_strike_commander/index.php)) to my first modifications, and finally a brief update on where we are today.
+
+![Flying to Nouakchott](/assets/img/neosc_3.png)
+
+<!--more-->
+
 # The beginig
 
 One day, I had the idea of reviving the SGI simulator ([SGI Dogfight](https://en.wikipedia.org/wiki/SGI_Dogfight)). While browsing the web, I found a Windows version along with its source code. However, the Windows version didn’t work correctly. Later, I discovered that our machines are simply too powerful, and the original code was designed to run at a frequency of 30 FPS. Beyond that, the calculations break down.
@@ -53,7 +59,6 @@ The real challenge lies in understanding and exploring the data to avoid re-codi
 
 Essentially, I’m creating more of an emulator for Strike Commander than remaking the game. It’s a bit like ScummVM, really. And I can’t help but think that maybe this code will be able to run other Chris Roberts games built on the same engine (Real Space).
 
-![Flying to Nouakchott](/assets/img/neosc_3.png)
 
 # And Now
 
@@ -72,7 +77,7 @@ Once I completed the implementation, it was incredibly satisfying to see the gam
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Hp_cA-aw7ng?si=8-cVxpSS3wRtQODp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-# to conclude
+# To Conclude
 
 Where is the project today? I can say that it’s starting to become a game rather than just a technical demo of what’s possible. You can grab the source code (the project is open-source and available on GitHub: [https://github.com/remileonard/libRealSpace](https://github.com/remileonard/libRealSpace)), compile it on Linux or Windows (though the release is a bit dated...), retrieve the data from the original diskette version of the game, and play it. Not quite like back in the day, as there’s still work to be done on the AI, the game’s monetary system (where you earn money during missions to buy weapons and progress further), and—most importantly—displaying the cutscenes (ah, that glorious game intro!).
 

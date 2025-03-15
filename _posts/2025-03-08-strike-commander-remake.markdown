@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Strike Commander Remake the story so far"
+title:  "Strike Commander Remake, the story so far"
 date:   2025-03-08 12:18:59 +0100
 categories: LibRealSpace
 ---

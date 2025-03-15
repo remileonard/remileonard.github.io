@@ -69,4 +69,8 @@ I didn’t start from scratch. I drew inspiration from the data model used to re
 
 The result is this first video of the game's introduction. I'm thrilled to finally be able to display it, though there’s still much to do to implement the data for the other videos. Perhaps, in the meantime, I’ll discover how to decompile the executable properly, allowing me to extract the data without having to comb through the game's assets to find them.
 
+<div style="text-align:center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qbw6tIBHlrE?si=n94k5w5d9hTqH00b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 See you soon, and happy flying!  

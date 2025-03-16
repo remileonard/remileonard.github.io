@@ -11,7 +11,7 @@ I’m going to share how I started working on the Strike Commander remake. From 
 
 <!--more-->
 
-# The beginig
+## The beginig
 
 One day, I had the idea of reviving the SGI simulator ([SGI Dogfight](https://en.wikipedia.org/wiki/SGI_Dogfight)). While browsing the web, I found a Windows version along with its source code. However, the Windows version didn’t work correctly. Later, I discovered that our machines are simply too powerful, and the original code was designed to run at a frequency of 30 FPS. Beyond that, the calculations break down.
 
@@ -31,7 +31,7 @@ I downloaded the sources and compiled the project. Then, in a highly professiona
 
 And like any good developer, I put the project on pause (thanks to Cyberpunk 2077). 
 
-# After the break
+## After the break
 
 
 This summer, I decided it was time to revisit the project. Strike Commander is an arcade flight simulator with a strong emphasis on storytelling—the hallmark of Chris Roberts.
@@ -60,7 +60,7 @@ The real challenge lies in understanding and exploring the data to avoid re-codi
 Essentially, I’m creating more of an emulator for Strike Commander than remaking the game. It’s a bit like ScummVM, really. And I can’t help but think that maybe this code will be able to run other Chris Roberts games built on the same engine (Real Space).
 
 
-# And Now
+## And Now
 
 
 Recently, I’ve been working on another aspect of the game: managing mission scripts. Missions in Strike Commander are highly scripted, with events popping up and unexpected twists. However, the files were extremely cryptic. Aside from a few messages, there were no clear indications of what needed to be done. My only clue was an IFF chunk labeled "PROG." Well, "PROG" as in "program"... that seemed promising, but beyond that, I was left with just a sequence of bytes—no documentation, no explanations.
@@ -77,7 +77,7 @@ Once I completed the implementation, it was incredibly satisfying to see the gam
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Hp_cA-aw7ng?si=8-cVxpSS3wRtQODp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-# To Conclude
+## To Conclude
 
 Where is the project today? I can say that it’s starting to become a game rather than just a technical demo of what’s possible. You can grab the source code (the project is open-source and available on GitHub: [https://github.com/remileonard/libRealSpace](https://github.com/remileonard/libRealSpace)), compile it on Linux or Windows (though the release is a bit dated...), retrieve the data from the original diskette version of the game, and play it. Not quite like back in the day, as there’s still work to be done on the AI, the game’s monetary system (where you earn money during missions to buy weapons and progress further), and—most importantly—displaying the cutscenes (ah, that glorious game intro!).
 

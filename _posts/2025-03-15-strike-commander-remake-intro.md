@@ -11,14 +11,14 @@ The videos, or midgames, in Strike Commander remain a true mystery to me. I have
 ![prideau dans l'intro](/assets/img/Intro.png)
 <!--more-->
 
-# The Data
+## The Data
 
 The game's assets are all stored in TRE-format archives. The format is well-documented, and with a bit of effort, every image and animation can be identified. However, the introduction involves more than just sequences of images stitched together. There are scrolling effects, text, sounds, animations, and music.
 
 I searched for a long time for a file that, like the rest of the game, would contain the definition of the sequences to display, possibly with some opcodes to create the effects. But nothing—nada—no such information can be found in the game's assets.
 
 
-# However, Some Clues
+## However, Some Clues
 
 If I were skilled in reverse engineering with tools like IDA or GHIDRA, I might have more information. While going through the executable file *OPTEST.EXE*, I came across some interesting findings.
 
@@ -42,7 +42,7 @@ Unfortunally Ghidra doesn't find any reference to the address :(
 
 ![ghidra affichage chaine air](/assets/img/back_off_ghidra.png)
 
-# La solution.
+## La solution.
 
 For now, while waiting to gain more knowledge in disassembly and decompilation, I turned to a good old technique: re-coding the data to display the introduction.
 
@@ -65,7 +65,7 @@ flowchart TD
 
 I didn’t start from scratch. I drew inspiration from the data model used to represent the game in *GAMEFLOW.IFF*.  
 
-# The Result
+## The Result
 
 The result is this first video of the game's introduction. I'm thrilled to finally be able to display it, though there’s still much to do to implement the data for the other videos. Perhaps, in the meantime, I’ll discover how to decompile the executable properly, allowing me to extract the data without having to comb through the game's assets to find them.
 
